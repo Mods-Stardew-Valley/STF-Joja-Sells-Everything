@@ -1,0 +1,13 @@
+{
+"Name": "[STF] Joja Sells Everything... For a Price",
+"Author": "LoganDoidao",
+"Version": "1.0.2",
+"Description": "Joja sells everythiny, but the price...",
+"UniqueID": "LoganDoidao.JojaSellsAll",
+"MinimumApiVersion": "4.1.0",
+"UpdateKeys": [ "Nexus:46950" ],
+"ContentPackFor": {
+"UniqueID": "Cherry.ShopTileFramework",
+"MinimumVersion": "1.0.5"
+  }
+}
