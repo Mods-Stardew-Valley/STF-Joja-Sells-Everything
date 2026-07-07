@@ -12,6 +12,8 @@
   "0.8": [ "d Fri" ]
 },
 
+//modificar os preços de venda de todos para ser 3x o preço padrão do wiki
+//adicionar as frutas de todas as estações 
 
 "ItemStocks":[
 // SPRING
@@ -28,6 +30,10 @@
 //FLOWERS
 {"ItemType":"Object", "ItemNames":[ "Tulip" ], "StockPrice":"120"},
 {"ItemType":"Object", "ItemNames":[ "Blue Jazz" ], "StockPrice":"140"},
+
+//Fruits
+{"ItemType":"Object", "ItemNames":[ "Apricot" ], "StockPrice":"150"},
+{"ItemType":"Object", "ItemNames":[ "Cherry" ], "StockPrice":"240"},
 
 //SPECIAL
 {"ItemType":"Object", "ItemNames":[ "Strawberry" ], "StockPrice":"700"},
