@@ -6,109 +6,44 @@
 "DefaultSellPriceMultiplier": 3.0,
 
 "PriceMultiplierWhen": {
-  "0.5": [ "mail JojaMember" ],
+  "0.5": [ "JojaMartComplete" ],
+  "0.6": [ "jojaMember" ],
   "0.7": [ "d Wed Sat Sun" ],
   "0.8": [ "d Fri" ]
 },
 
 
 "ItemStocks":[
+// SPRING
+// CROPS
+{"ItemType":"Object", "ItemNames":[ "Parsnip" ], "StockPrice":"100"},
+{"ItemType":"Object", "ItemNames":[ "Potato" ], "StockPrice":"220"},
+{"ItemType":"Object", "ItemNames":[ "Green Bean" ], "StockPrice":"180"},
+{"ItemType":"Object", "ItemNames":[ "Cauliflower" ], "StockPrice":"500"},
+{"ItemType":"Object", "ItemNames":[ "Kale" ], "StockPrice":"330"},
+{"ItemType":"Object", "ItemNames":[ "Garlic" ], "StockPrice":"170"},
+{"ItemType":"Object", "ItemNames":[ "Rice Shoot" ], "StockPrice":"140"},
+{"ItemType":"Object", "ItemNames":[ "Rhubarb" ], "StockPrice":"620"},
 
-// SPRING - CROPS
+//FLOWERS
+{"ItemType":"Object", "ItemNames":[ "Tulip" ], "StockPrice":"120"},
+{"ItemType":"Object", "ItemNames":[ "Blue Jazz" ], "StockPrice":"140"},
 
-{
-"ItemType":"Object", "ItemNames":[ "Parsnip" ], "StockPrice":"100"
-},
+//SPECIAL
+{"ItemType":"Object", "ItemNames":[ "Strawberry" ], "StockPrice":"700"},
+{"ItemType":"Object", "ItemNames":[ "Carrot" ], "StockPrice":"150"},
+{"ItemType":"Object", "ItemNames":[ "CarrotSeeds" ], "StockPrice":"50"},
+{"ItemType":"Object", "ItemNames":[ "Spring Seeds" ], "StockPrice":"60"},
 
-{
-"ItemType":"Object", "ItemNames":[ "Potato" ], "StockPrice":"220"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Green Bean" ], "StockPrice":"180"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Cauliflower" ], "StockPrice":"500"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Kale" ], "StockPrice":"330"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Garlic" ], "StockPrice":"170"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Rice Shoot" ], "StockPrice":"140"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Rhubarb" ], "StockPrice":"620"
-},
-
-// SPRING - FLOWERS
-
-{
-"ItemType":"Object", "ItemNames":[ "Tulip" ], "StockPrice":"120"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Blue Jazz" ], "StockPrice":"140"
-},
-
-// SPRING - SPECIAL
-
-{
-"ItemType":"Object", "ItemNames":[ "Strawberry" ], "StockPrice":"700"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Carrot" ], "StockPrice":"150"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "CarrotSeeds" ], "StockPrice":"50"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Spring Seeds" ], "StockPrice":"60"
-},
-
-// SPRING - FORAGE
-
-{
-"ItemType":"Object", "ItemNames":[ "Wild Horseradish" ], "StockPrice":"120"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Daffodil" ], "StockPrice":"80"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Leek" ], "StockPrice":"150"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Dandelion" ], "StockPrice":"90"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Spring Onion" ], "StockPrice":"60"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Salmonberry" ], "StockPrice":"75"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Common Mushroom" ], "StockPrice":"250"
-},
-
-{
-"ItemType":"Object", "ItemNames":[ "Morel" ], "StockPrice":"1000", "Stock":5
-},
+//FORAGE
+{"ItemType":"Object", "ItemNames":[ "Wild Horseradish" ], "StockPrice":"120"},
+{"ItemType":"Object", "ItemNames":[ "Daffodil" ], "StockPrice":"80"},
+{"ItemType":"Object", "ItemNames":[ "Leek" ], "StockPrice":"150"},
+{"ItemType":"Object", "ItemNames":[ "Dandelion" ], "StockPrice":"90"},
+{"ItemType":"Object", "ItemNames":[ "Spring Onion" ], "StockPrice":"60"},
+{"ItemType":"Object", "ItemNames":[ "Salmonberry" ], "StockPrice":"75"},
+{"ItemType":"Object", "ItemNames":[ "Common Mushroom" ], "StockPrice":"250"},
+{"ItemType":"Object", "ItemNames":[ "Morel" ], "StockPrice":"1000", "Stock":5},
 
 // SUMMER - CROPS
 
