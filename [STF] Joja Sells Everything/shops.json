@@ -4,10 +4,8 @@
 "ShopName":"JojaShop",
 "AddStockAboveVanilla":"False",
 "DefaultSellPriceMultiplier": 2.0,
-  
 "PriceMultiplierWhen": {
-"0.5": [ "JojaMartComplete" ],
-"0.6": [ "jojaMember" ],
+"0.6": [ "JojaMartComplete" ],
 "0.7": [ "d Wed Sat Sun" ],
 "0.8": [ "d Fri" ]
 },
