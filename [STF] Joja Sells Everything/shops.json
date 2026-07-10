@@ -3,7 +3,7 @@
 {
 "ShopName":"JojaShop",
 "AddStockAboveVanilla":"False",
-"DefaultSellPriceMultiplier": 3.0,
+"DefaultSellPriceMultiplier": 2.0,
   
 "PriceMultiplierWhen": {
 "0.5": [ "JojaMartComplete" ],
@@ -11,9 +11,6 @@
 "0.7": [ "d Wed Sat Sun" ],
 "0.8": [ "d Fri" ]
 },
-
-//modificar os preços de venda de todos para ser 3x o preço padrão do wiki
-//adicionar as frutas de todas as estações 
 
 "ItemStocks":[
 
@@ -57,7 +54,7 @@
 //FLOWERS
 {"ItemType":"Object", "ItemNames":[ "Tulip" ], "StockPrice":"90"},
 {"ItemType":"Object", "ItemNames":[ "Blue Jazz" ], "StockPrice":"150"},
-//Fruits
+//FRUITS
 {"ItemType":"Object", "ItemNames":[ "Apricot" ], "StockPrice":"150"},
 {"ItemType":"Object", "ItemNames":[ "Cherry" ], "StockPrice":"240"},
 //SPECIAL
@@ -92,6 +89,9 @@
 {"ItemType":"Object", "ItemNames":[ "Poppy" ], "StockPrice":"320"},
 {"ItemType":"Object", "ItemNames":[ "Summer Spangle" ], "StockPrice":"270"},
 {"ItemType":"Object", "ItemNames":[ "Sunflower" ], "StockPrice":"240"},
+//FRUITS
+{"ItemType":"Object", "ItemNames":[ "Orange" ], "StockPrice":"300"},
+{"ItemType":"Object", "ItemNames":[ "Peach" ], "StockPrice":"420"},
 //FORAGE
 {"ItemType":"Object", "ItemNames":[ "Fiddlehead Fern" ], "StockPrice":"270"},
 {"ItemType":"Object", "ItemNames":[ "Grape" ], "StockPrice":"240"},
@@ -105,41 +105,44 @@
 {"ItemType":"Object", "ItemNames":[ "SummerSquashSeeds" ], "StockPrice":"60"},
 {"ItemType":"Object", "ItemNames":[ "Starfruit" ], "StockPrice":"2000"},
 
-// FALL falta daqui pra baixo e finalizar 
+//FALL
 // CROPS
-{"ItemType":"Object", "ItemNames":[ "Eggplant" ], "StockPrice":"170"},
-{"ItemType":"Object", "ItemNames":[ "Bok Choy" ], "StockPrice":"220"},
-{"ItemType":"Object", "ItemNames":[ "Yam" ], "StockPrice":"450"},
-{"ItemType":"Object", "ItemNames":[ "Pumpkin" ], "StockPrice":"900"},
-{"ItemType":"Object", "ItemNames":[ "Amaranth" ], "StockPrice":"420"},
-{"ItemType":"Object", "ItemNames":[ "Artichoke" ], "StockPrice":"450"},
-{"ItemType":"Object", "ItemNames":[ "Cranberries" ], "StockPrice":"450"},
-{"ItemType":"Object", "ItemNames":[ "Beet" ], "StockPrice":"280"},
+{"ItemType":"Object", "ItemNames":[ "Eggplant" ], "StockPrice":"180"},
+{"ItemType":"Object", "ItemNames":[ "Bok Choy" ], "StockPrice":"240"},
+{"ItemType":"Object", "ItemNames":[ "Yam" ], "StockPrice":"480"},
+{"ItemType":"Object", "ItemNames":[ "Pumpkin" ], "StockPrice":"960"},
+{"ItemType":"Object", "ItemNames":[ "Amaranth" ], "StockPrice":"450"},
+{"ItemType":"Object", "ItemNames":[ "Artichoke" ], "StockPrice":"480"},
+{"ItemType":"Object", "ItemNames":[ "Cranberries" ], "StockPrice":"230"},
+{"ItemType":"Object", "ItemNames":[ "Beet" ], "StockPrice":"300"},
 //FLOWERS
-{"ItemType":"Object", "ItemNames":[ "Fairy Rose" ], "StockPrice":"500"},
+{"ItemType":"Object", "ItemNames":[ "Fairy Rose" ], "StockPrice":"870"},
+//FRUITS
+{"ItemType":"Object", "ItemNames":[ "Apple" ], "StockPrice":"300"},
+{"ItemType":"Object", "ItemNames":[ "Pomegranate" ], "StockPrice":"420"},
 //FORAGE
-{"ItemType":"Object", "ItemNames":[ "Wild Plum" ], "StockPrice":"140"},
-{"ItemType":"Object", "ItemNames":[ "Hazelnut" ], "StockPrice":"160"},
-{"ItemType":"Object", "ItemNames":[ "Blackberry" ], "StockPrice":"90"},
-{"ItemType":"Object", "ItemNames":[ "Chanterelle" ], "StockPrice":"1600"},
-{"ItemType":"Object", "ItemNames":[ "Purple Mushroom" ], "StockPrice":"2200"},
+{"ItemType":"Object", "ItemNames":[ "Wild Plum" ], "StockPrice":"240"},
+{"ItemType":"Object", "ItemNames":[ "Hazelnut" ], "StockPrice":"270"},
+{"ItemType":"Object", "ItemNames":[ "Blackberry" ], "StockPrice":"60"},
+{"ItemType":"Object", "ItemNames":[ "Chanterelle" ], "StockPrice":"480"},
+{"ItemType":"Object", "ItemNames":[ "Purple Mushroom" ], "StockPrice":"750"},
 //SPECIAL
 {"ItemType":"Object", "ItemNames":[ "Sweet Gem Berry" ], "StockPrice":"15000", "Stock":1},
-{"ItemType":"Object", "ItemNames":[ "Fall Seeds" ], "StockPrice": "60"},
-{"ItemType":"Object", "ItemNames":[ "Broccoli" ], "StockPrice": "150"},
-{"ItemType":"Object", "ItemNames":[ "BroccoliSeeds" ], "StockPrice": "60"},
-{"ItemType":"Object", "ItemNames":[ "Ancient Fruit" ], "StockPrice":"1750", "Stock":1},
+{"ItemType":"Object", "ItemNames":[ "Fall Seeds" ], "StockPrice": "130"},
+{"ItemType":"Object", "ItemNames":[ "Broccoli" ], "StockPrice": "210"},
+{"ItemType":"Object", "ItemNames":[ "BroccoliSeeds" ], "StockPrice": "120"},
+{"ItemType":"Object", "ItemNames":[ "Ancient Fruit" ], "StockPrice":"1800", "Stock":1},
 
 // WINTER
 // FORAGE
-{"ItemType":"Object", "ItemNames":[ "Winter Root" ], "StockPrice":"140"},
-{"ItemType":"Object", "ItemNames":[ "Crystal Fruit" ], "StockPrice":"300"},
-{"ItemType":"Object", "ItemNames":[ "Snow Yam" ], "StockPrice":"180"},
-{"ItemType":"Object", "ItemNames":[ "Crocus" ], "StockPrice":"120"},
-{"ItemType":"Object", "ItemNames":[ "Holly" ], "StockPrice":"150"},
+{"ItemType":"Object", "ItemNames":[ "Winter Root" ], "StockPrice":"210"},
+{"ItemType":"Object", "ItemNames":[ "Crystal Fruit" ], "StockPrice":"450"},
+{"ItemType":"Object", "ItemNames":[ "Snow Yam" ], "StockPrice":"300"},
+{"ItemType":"Object", "ItemNames":[ "Crocus" ], "StockPrice":"180"},
+{"ItemType":"Object", "ItemNames":[ "Holly" ], "StockPrice":"240"},
 //SPECIAL
-{"ItemType":"Object", "ItemNames":[ "Powdermelon" ], "StockPrice":"900"},
-{"ItemType":"Object", "ItemNames":[ "Winter Seeds" ], "StockPrice": "60"},
+{"ItemType":"Object", "ItemNames":[ "Powdermelon" ], "StockPrice":"180"},
+{"ItemType":"Object", "ItemNames":[ "Winter Seeds" ], "StockPrice": "90"},
 {"ItemType":"Object", "ItemNames":[ "PowdermelonSeeds" ], "StockPrice": "60"}
       ]
     }
