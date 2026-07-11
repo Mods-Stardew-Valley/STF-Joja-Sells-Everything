@@ -13,31 +13,31 @@
 "ItemStocks":[
 
 {"ItemType":"Object", "StockPrice":"1500", "Stock":10, "ItemIDs":[ 787 ]}, //Battery Pack
-{"ItemType": "Object", "StockPrice": "50", "ItemIDs": [ 770 ]}, //Mixed Seeds
-{"ItemType": "Object", "StockPrice": "80", "ItemNames": [ "MixedFlowerSeeds" ]},
-{"ItemType": "Object", "StockPrice": "25", "ItemIDs": [ 885 ]}, //Fiber Seeds
+{"ItemType":"Object", "StockPrice": "50", "ItemIDs": [ 770 ]}, //Mixed Seeds
+{"ItemType":"Object", "StockPrice": "80", "ItemNames": [ "MixedFlowerSeeds" ]},
+{"ItemType":"Object", "StockPrice": "25", "ItemIDs": [ 885 ]}, //Fiber Seeds
 {"ItemType":"Object", "StockPrice": "150", "ItemIDs":[ 815 ]}, //Tea Leaves
 {"ItemType":"Object", "StockPrice": "750", "ItemIDs":[ 251 ]}, //Tea Sapling
-{"ItemType": "Object", "StockPrice": "150", "Stock":5, "ItemIDs": [ 499 ]}, //Ancient seed
+{"ItemType":"Object", "StockPrice": "150", "Stock":5, "ItemIDs": [ 499 ]}, //Ancient seed
 {"ItemType":"Object", "StockPrice":"15000", "Stock":1, "ItemIDs":[ 347 ]}, //Rare Seed
 // FERTILIZERS
-{"ItemType": "Object", "StockPrice": "500", "ItemNames": [ "Quality Fertilizer" ]},
-{"ItemType": "Object", "StockPrice": "1750", "Stock": 50, "ItemNames": [ "Deluxe Fertilizer" ]},
-{"ItemType": "Object", "StockPrice": "500", "ItemNames": [ "Quality Retaining Soil" ]},
-{"ItemType": "Object", "StockPrice": "1500", "Stock": 75,  "ItemNames": [ "Deluxe Retaining Soil" ]},
-{"ItemType": "Object", "StockPrice": "500",  "ItemNames": [ "Deluxe Speed-Gro" ]},
-{"ItemType": "Object", "StockPrice": "2000", "Stock": 100, "ItemNames": [ "Hyper Speed-Gro" ]},
-{"ItemType": "Object", "StockPrice": "250", "ItemNames": [ "Tree Fertilizer" ]},
+{"ItemType":"Object", "StockPrice": "500", "ItemNames": [ "Quality Fertilizer" ]},
+{"ItemType":"Object", "StockPrice": "1750", "Stock": 50, "ItemNames": [ "Deluxe Fertilizer" ]},
+{"ItemType":"Object", "StockPrice": "500", "ItemNames": [ "Quality Retaining Soil" ]},
+{"ItemType":"Object", "StockPrice": "1500", "Stock": 75,  "ItemNames": [ "Deluxe Retaining Soil" ]},
+{"ItemType":"Object", "StockPrice": "500",  "ItemNames": [ "Deluxe Speed-Gro" ]},
+{"ItemType":"Object", "StockPrice": "2000", "Stock": 100, "ItemNames": [ "Hyper Speed-Gro" ]},
+{"ItemType":"Object", "StockPrice": "250", "ItemNames": [ "Tree Fertilizer" ]},
 // SPRINKLERS
-{"ItemType": "Object", "StockPrice": "500",  "ItemNames": [ "Sprinkler" ]},
-{"ItemType": "Object", "StockPrice": "1500", "Stock":10, "ItemNames": [ "Quality Sprinkler" ]},
-{"ItemType": "Object", "StockPrice": "5000", "Stock":1, "ItemNames": [ "Iridium Sprinkler" ]},
+{"ItemType":"Object", "StockPrice": "500",  "ItemNames": [ "Sprinkler" ]},
+{"ItemType":"Object", "StockPrice": "1500", "Stock":10, "ItemNames": [ "Quality Sprinkler" ]},
+{"ItemType":"Object", "StockPrice": "5000", "Stock":1, "ItemNames": [ "Iridium Sprinkler" ]},
 // UTILITY
-{"ItemType": "BigCraftable", "StockPrice": "15000", "ItemNames": [ "Dehydrator" ]},
-{"ItemType": "BigCraftable", "StockPrice": "1500", "ItemNames": [ "Scarecrow" ]},
-{"ItemType": "BigCraftable", "StockPrice": "15000", "Stock":1, "ItemNames": [ "Deluxe Scarecrow" ]},
-{"ItemType": "BigCraftable", "StockPrice": "10000", "ItemNames": [ "Seed Maker" ]},
-{"ItemType": "BigCraftable", "StockPrice": "3000", "Stock":10, "ItemNames": [ "Garden Pot" ]},
+{"ItemType":"BigCraftable", "StockPrice": "15000", "ItemNames": [ "Dehydrator" ]},
+{"ItemType":"BigCraftable", "StockPrice": "1500", "ItemNames": [ "Scarecrow" ]},
+{"ItemType":"BigCraftable", "StockPrice": "15000", "Stock":1, "ItemNames": [ "Deluxe Scarecrow" ]},
+{"ItemType":"BigCraftable", "StockPrice": "10000", "ItemNames": [ "Seed Maker" ]},
+{"ItemType":"BigCraftable", "StockPrice": "3000", "Stock":10, "ItemNames": [ "Garden Pot" ]},
 
 // SPRING
 // CROPS
